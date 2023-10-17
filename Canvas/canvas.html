@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Business Opportunity Canvas</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <style>
+        body {
+            background-color: #67A1B1;
+            background-image: url("/AureliusLogoFull.png");
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-size: auto;
+            /* padding: 2% 15%; */
+        }
+
+        .form-section {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .middle-sections {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .box {
+            flex-basis: calc(33.33% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Business Opportunity Canvas</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <fieldset>
+                <legend>Business Information</legend>
+                <form>
+                    <div class="form-group">
+                        <label for="date">Date:</label>
+                        <input id="date" name="date" type="date"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessName">Business Name:</label>
+                        <input id="businessName" name="businessName" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactName">Contact Name:</label>
+                        <input id="contactName" name="contactName" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobileNo">Mobile No.:</label>
+                        <input id="mobileNo" name="mobileNo" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="text"/>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+        
+        <div class="container">
+            <div>
+                <h3>Problem Statement</h3>
+                <textarea class="box"></textarea>
+                <h3>Applications Used</h3>
+                <textarea class="box"></textarea>
+            </div>
+
+            <div class="middle-sections">
+                <div>
+                    <h3>Challenges</h3>
+                    <textarea class="box"></textarea>
+                </div>
+                <div>
+                    <h3>Users and Customers</h3>
+                    <textarea class="box"></textarea>
+                </div>
+            </div>
+
+            <div>
+                <h3>Requirements</h3>
+                <textarea class="box"></textarea>
+                <h3>Measures of Performance/Success</h3>
+                <textarea class="box"></textarea>
+            </div>
+        </div>
+
+        <div>
+            <h3>Process Framework</h3>
+            <!-- Place the draw.io image or iframe here -->
+            <img src="path_to_drawio_exported_image.png" alt="Process Framework">
+        </div>
+    </main>
+    <footer>
+        <!-- Footer content can go here -->
+    </footer>
+</body>
+</html>
